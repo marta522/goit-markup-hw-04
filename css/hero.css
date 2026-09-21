@@ -1,7 +1,5 @@
 .hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
   background-color: #2e2f42;
   max-width: 1440px;
   padding: 188px 0;
