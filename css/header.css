@@ -34,12 +34,28 @@
 .main-nav-item {
 }
 .main-nav-link {
+  position: relative;
   display: block;
   padding: 24px 0;
 }
+
 .main-nav-link:hover,
-.main-nav-link:focus {
+.main-nav-link:focus,
+.main-nav-link.current {
   color: #404bbf;
+}
+
+.main-nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: block;
+  width: 100%;
+  border-radius: 2px;
+  height: 4px;
+  background: #404bbf;
 }
 .contacts {
 }

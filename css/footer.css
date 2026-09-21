@@ -20,3 +20,21 @@
   font-weight: 400;
   color: #f4f4fd;
 }
+
+.footer-blok {
+  display: flex;
+}
+
+.footer-slogan {
+  max-width: 264px;
+}
+
+.footer-wrapper {
+  margin-left: 120px;
+  margin-right: auto;
+}
+
+.footer-title {
+  color: #fff;
+  margin-bottom: 16px;
+}

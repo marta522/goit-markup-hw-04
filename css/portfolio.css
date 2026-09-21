@@ -17,6 +17,14 @@
 }
 .portfolio-item {
 }
+
+.portfolio-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-ill {
+}
 .portfolio-caption {
   font-size: 20px;
   line-height: 1.2;
@@ -31,4 +39,27 @@
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+
+  width: 100%;
+  height: 100%;
+  padding: 40px 32px;
+  box-sizing: border-box;
+
+  font-weight: 400;
+  color: #f4f4fd;
+
+  background: #4d5ae5;
+  transition: 300ms ease-out;
+  transition-property: transform;
+}
+
+.portfolio-item:hover .overlay {
+  transform: translateY(0);
 }
