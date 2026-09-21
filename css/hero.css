@@ -1,5 +1,6 @@
 .hero {
   background-color: #2e2f42;
+  max-width: 1440px;
   padding: 188px 0;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -29,6 +30,7 @@
 
   cursor: pointer;
   letter-spacing: 0.04em;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
 
